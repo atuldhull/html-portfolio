@@ -25,7 +25,7 @@ jobs:
         node: [14, 16, 18]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -46,7 +46,7 @@ jobs:
         node: [14, 16, 18]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -73,7 +73,7 @@ jobs:
         node: [14, 16, 18]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -121,7 +121,7 @@ jobs:
           - 5432:5432
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -159,7 +159,7 @@ jobs:
           - 3306:3306
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -197,7 +197,7 @@ jobs:
           - 3306:3306
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -219,7 +219,7 @@ jobs:
         sqlite_pkg: ['better-sqlite3', 'sqlite3', '@vscode/sqlite3']
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -264,7 +264,7 @@ jobs:
           - 5432:5432
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -305,7 +305,7 @@ jobs:
           - 3306:3306
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
@@ -331,7 +331,7 @@ jobs:
         sqlite_pkg: ['better-sqlite3', 'sqlite3', '@vscode/sqlite3']
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: actions/cache@v3
