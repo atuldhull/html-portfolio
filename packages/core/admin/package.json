@@ -58,7 +58,7 @@
     "@strapi/permissions": "4.5.2",
     "@strapi/typescript-utils": "4.5.2",
     "@strapi/utils": "4.5.2",
-    "axios": "0.27.2",
+    "axios": "0.30.3",
     "babel-loader": "8.2.5",
     "babel-plugin-styled-components": "2.0.2",
     "bcryptjs": "2.4.3",
